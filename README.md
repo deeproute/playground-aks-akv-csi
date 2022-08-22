@@ -92,7 +92,7 @@ https://betterprogramming.pub/encrypting-kubernetes-secrets-with-sealed-secrets-
 
 ## AKS Identity
 
-az aks create -g test-aks -n aks-identity --enable-managed-identity 
+az aks create -g playground-aks-akv-csi -n aks-identity --enable-managed-identity 
 
 ## How to convert certificates to different formats
 https://stackoverflow.com/questions/13732826/convert-pem-to-crt-and-key
